@@ -33,7 +33,7 @@ export default function Footer() {
                         <span className="sr-only">LinkedIn</span>
                     </Link>
                     <Link
-                        href="https://github.com/mridhul-narayan"
+                        href="https://github.com/mridhul977"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-3 bg-white text-slate-600 rounded-xl transition-all shadow-sm border border-slate-100 hover:shadow-md hover:text-slate-900 active:scale-[0.98]"

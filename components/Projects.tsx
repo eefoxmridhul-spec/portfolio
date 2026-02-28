@@ -16,7 +16,8 @@ const projects = [
         subtitle: "Hospital Management Web Platform",
         description: "Architected a full-stack web platform streamlining patient records and secure doctor access portals. Engineered the responsive frontend interfaces using React.js and RESTful backend architectures with Node.js. Integrated Supabase for rigorous data security, authentication, and rapid deployment via Vercel.",
         tech: ["React.js", "Node.js", "Supabase", "JavaScript", "Vercel"],
-        icon: <ExternalLink className="w-6 h-6" strokeWidth={2} />
+        icon: <ExternalLink className="w-6 h-6" strokeWidth={2} />,
+        link: "https://rec-logix.vercel.app/"
     }
 ];
 
@@ -72,7 +73,19 @@ export default function Projects() {
                                         {project.icon}
                                     </div>
                                     <div>
-                                        <h4 className="text-2xl font-bold text-slate-900 tracking-tight">{project.title}</h4>
+                                        {project.link ? (
+                                            <a
+                                                href={project.link}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="hover:text-blue-600 transition-colors inline-flex items-center gap-2 group/link"
+                                            >
+                                                <h4 className="text-2xl font-bold text-slate-900 tracking-tight group-hover/link:text-blue-600 transition-colors">{project.title}</h4>
+                                                <ExternalLink size={20} className="text-slate-400 group-hover/link:text-blue-600 transition-colors opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0" />
+                                            </a>
+                                        ) : (
+                                            <h4 className="text-2xl font-bold text-slate-900 tracking-tight">{project.title}</h4>
+                                        )}
                                         <p className="text-sm text-slate-500 font-medium mt-1">{project.subtitle}</p>
                                     </div>
                                 </div>

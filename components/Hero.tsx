@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Github, FileText, ArrowRight } from 'lucide-react';
+import { Mail, Linkedin, Github, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Hero() {
@@ -71,7 +71,7 @@ export default function Hero() {
 
           <div className="flex items-center justify-center gap-3 w-full sm:w-auto mt-2 sm:mt-0 sm:ml-2">
             <Link
-              href="https://github.com/mridhul-narayan"
+              href="https://github.com/mridhul977"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3.5 bg-white/50 text-slate-600 hover:text-slate-900 border border-slate-200/50 hover:bg-white rounded-xl transition-all shadow-sm hover:shadow active:scale-[0.98]"
@@ -87,13 +87,6 @@ export default function Hero() {
             >
               <Linkedin size={20} />
               <span className="sr-only">LinkedIn</span>
-            </Link>
-            <Link
-              href="#" // Placeholder for resume
-              className="p-3.5 bg-white/50 text-slate-600 hover:text-emerald-600 border border-slate-200/50 hover:bg-white rounded-xl transition-all shadow-sm hover:shadow active:scale-[0.98]"
-            >
-              <FileText size={20} />
-              <span className="sr-only">Resume</span>
             </Link>
           </div>
         </motion.div>
