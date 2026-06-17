@@ -18,10 +18,10 @@ const education = [
 ];
 
 const certificates = [
-    "Completed AWS (Amazon Web Services) ML Engineer Associative Curriculum Overview Course (2025)",
-    "LBS Centre for Science & Technology - Back End Software Development using Python & ML Starter Kit (2024)",
-    "Garuda Aerospace Private Limited - Workshop on Drone Technology and its Application (2024)",
-    "Completed NPTEL Cyber Security and Privacy Course (2024)"
+    "Completed AWS (Amazon Web Services) ML Engineer Associative Curriculum Overview Course 2025",
+    "LBS Centre for Science & Technology - Back End Software Development using Python and starter kit to Machine Learning 2024",
+    "Garuda Aerospace Private Limited - Workshop on Drone Technology and its Application 2024",
+    "Completed NPTEL Cyber Security and Privacy Course 2024"
 ];
 
 export default function Experience() {

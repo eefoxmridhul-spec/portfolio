@@ -35,7 +35,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
         >
-          Software Developer | Web Developer | IoT Engineer
+          Software Developer | ML Engineer | IoT Engineer
         </motion.h2>
 
         <motion.p
@@ -44,7 +44,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
         >
-          Passionate about building scalable web applications, intelligent IoT systems, and real-world software solutions.
+          Passionate about building scalable web applications, fine-tuning machine learning models, and engineering intelligent IoT systems.
         </motion.p>
 
         <motion.div

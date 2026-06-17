@@ -35,17 +35,17 @@ export default function About() {
                         className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100 relative overflow-hidden"
                     >
                         <p className="text-slate-600 leading-relaxed font-medium mb-6 text-lg">
-                            I am a final-year B.Tech Computer Science student with practical experience in
-                            <strong className="font-semibold text-slate-900"> Python, JavaScript, React, and Node.js</strong>.
-                            My development journey is driven by a passion for creating seamless user experiences and robust backend architectures.
+                            I am a Computer Science graduate with a strong foundation in
+                            <strong className="font-semibold text-slate-900"> Java, SQL, data structures, and software engineering principles</strong>.
+                            My experience spans developing web and IoT-based applications, as well as working with machine learning models (PyTorch, Hugging Face ecosystem, and transformer model fine-tuning using LoRA).
                         </p>
 
                         <p className="text-slate-600 leading-relaxed font-medium mb-6 text-lg">
-                            Currently, I am working on a <strong className="font-semibold text-slate-900">microplastic detection project</strong> featuring a React Native dashboard tailored for real-time environmental monitoring. This intersection of software and IoT excites me, as it demonstrates how code can solve tangible, real-world problems.
+                            Currently, I am working on a <strong className="font-semibold text-slate-900">microplastic detection project</strong> featuring a React Native dashboard tailored for real-time environmental monitoring. I am also familiar with model quantization techniques (AWQ, GPTQ) and serving models with vLLM.
                         </p>
 
                         <p className="text-slate-600 leading-relaxed font-medium text-lg">
-                            I am actively seeking entry-level software developer roles, apprenticeships, or internships where I can contribute to forward-thinking teams, apply my current skills, and rapidly learn modern industry practices.
+                            I am actively seeking entry-level <strong className="font-semibold text-slate-900">Software Developer, ML Engineer, or Java Developer</strong> roles where I can apply my technical skills, solve complex problems, and contribute to real-world projects.
                         </p>
                     </motion.div>
                 </div>

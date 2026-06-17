@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Database, Layout, Server, Code2, Wrench, Boxes, Cpu } from 'lucide-react';
+import { Database, Layout, Server, Code2, Wrench, Boxes, Cpu, Brain } from 'lucide-react';
 
 const skillsCats = [
     {
@@ -17,7 +17,7 @@ const skillsCats = [
     {
         category: "Backend",
         icon: <Server size={24} strokeWidth={2} />,
-        skills: ["Node.js", "Express.js", "REST API"]
+        skills: ["Node.js", "Express.js", "REST API", "Spring Boot", "FastAPI"]
     },
     {
         category: "Database",
@@ -27,17 +27,22 @@ const skillsCats = [
     {
         category: "Tools",
         icon: <Wrench size={24} strokeWidth={2} />,
-        skills: ["Git", "GitHub", "VS Code", "Eclipse"]
+        skills: ["Git", "GitHub", "VS Code", "Eclipse", "Weights & Biases (W&B)"]
     },
     {
-        category: "Libraries",
+        category: "Libraries & Frameworks",
         icon: <Boxes size={24} strokeWidth={2} />,
-        skills: ["Pandas", "NumPy", "TensorFlow", "Framer Motion"]
+        skills: ["PyTorch", "TensorFlow", "Hugging Face", "Pandas", "NumPy", "Matplotlib", "Bootstrap", "Framer Motion"]
+    },
+    {
+        category: "LLM & Model Serving",
+        icon: <Brain size={24} strokeWidth={2} />,
+        skills: ["LoRA Fine-tuning", "Model Quantization", "vLLM", "Inference API Design"]
     },
     {
         category: "Core Competencies",
         icon: <Cpu size={24} strokeWidth={2} />,
-        skills: ["Problem Solving", "System Architecture", "Debugging", "Agile"]
+        skills: ["Problem Solving", "System Architecture", "Debugging & Testing", "Agile"]
     }
 ];
 
