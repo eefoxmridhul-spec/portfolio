@@ -5,44 +5,39 @@ import { Database, Layout, Server, Code2, Wrench, Boxes, Cpu, Brain } from 'luci
 
 const skillsCats = [
     {
-        category: "Languages",
+        category: "Programming Languages",
         icon: <Code2 size={24} strokeWidth={2} />,
-        skills: ["Python", "JavaScript", "Java", "C", "C++", "SQL"]
+        skills: ["Java", "TypeScript", "JavaScript", "Dart", "SQL", "Python"]
     },
     {
         category: "Frontend",
         icon: <Layout size={24} strokeWidth={2} />,
-        skills: ["React Native", "React.js", "HTML", "CSS", "Tailwind CSS"]
+        skills: ["React.js", "Next.js", "React Native", "Flutter", "Tailwind CSS", "HTML5", "CSS3", "Bootstrap 5"]
     },
     {
         category: "Backend",
         icon: <Server size={24} strokeWidth={2} />,
-        skills: ["Node.js", "Express.js", "REST API", "Spring Boot", "FastAPI"]
+        skills: ["Spring Boot", "Spring MVC", "Node.js", "Express.js", "REST APIs", "JWT Authentication", "MVC Architecture"]
     },
     {
-        category: "Database",
+        category: "Databases & ORM",
         icon: <Database size={24} strokeWidth={2} />,
-        skills: ["MySQL", "Supabase", "PostgreSQL"]
+        skills: ["MySQL", "PostgreSQL", "Supabase", "JPA / Hibernate", "JDBC"]
     },
     {
-        category: "Tools",
-        icon: <Wrench size={24} strokeWidth={2} />,
-        skills: ["Git", "GitHub", "VS Code", "Eclipse", "Weights & Biases (W&B)"]
-    },
-    {
-        category: "Libraries & Frameworks",
+        category: "Cloud & Deployment",
         icon: <Boxes size={24} strokeWidth={2} />,
-        skills: ["PyTorch", "TensorFlow", "Hugging Face", "Pandas", "NumPy", "Matplotlib", "Bootstrap", "Framer Motion"]
+        skills: ["Vercel", "Supabase (BaaS)", "Row-Level Security"]
     },
     {
-        category: "LLM & Model Serving",
-        icon: <Brain size={24} strokeWidth={2} />,
-        skills: ["LoRA Fine-tuning", "Model Quantization", "vLLM", "Inference API Design"]
+        category: "Tools & Version Control",
+        icon: <Wrench size={24} strokeWidth={2} />,
+        skills: ["Git", "GitHub", "VS Code", "Postman", "MySQL Workbench"]
     },
     {
-        category: "Core Competencies",
+        category: "Core Concepts",
         icon: <Cpu size={24} strokeWidth={2} />,
-        skills: ["Problem Solving", "System Architecture", "Debugging & Testing", "Agile"]
+        skills: ["Data Structures & Algorithms", "OOP", "REST API Design", "CRUD Operations", "System Design Fundamentals"]
     }
 ];
 

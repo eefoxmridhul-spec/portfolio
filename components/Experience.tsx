@@ -8,7 +8,8 @@ const education = [
         period: "2022 — 2026",
         degree: "Bachelor of Technology in Computer Science",
         institution: "APJ Abdul Kalam Technological University",
-        college: "John Cox Memorial CSI Institute of Technology, Trivandrum"
+        college: "John Cox Memorial CSI Institute of Technology, Trivandrum",
+        details: "CGPA: 7.56"
     },
     {
         period: "2020 — 2022",
@@ -18,10 +19,10 @@ const education = [
 ];
 
 const certificates = [
-    "Completed AWS (Amazon Web Services) ML Engineer Associative Curriculum Overview Course 2025",
-    "LBS Centre for Science & Technology - Back End Software Development using Python and starter kit to Machine Learning 2024",
-    "Garuda Aerospace Private Limited - Workshop on Drone Technology and its Application 2024",
-    "Completed NPTEL Cyber Security and Privacy Course 2024"
+    "AWS (Amazon Web Services) ML Engineer Associate – Curriculum Overview Course",
+    "Back End Software Development using Python & Machine Learning – LBS Centre for Science & Technology",
+    "Workshop on Drone Technology and its Application – Garuda Aerospace Private Limited",
+    "NPTEL Cyber Security and Privacy Course"
 ];
 
 export default function Experience() {
@@ -55,6 +56,9 @@ export default function Experience() {
                                 <p className="text-slate-700 font-medium mb-1">{item.institution}</p>
                                 {item.college && (
                                     <p className="text-slate-500 font-medium text-sm mt-1">{item.college}</p>
+                                )}
+                                {item.details && (
+                                    <p className="text-blue-600 font-semibold text-sm mt-2">{item.details}</p>
                                 )}
                             </motion.div>
                         ))}

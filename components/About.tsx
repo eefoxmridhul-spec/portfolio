@@ -35,17 +35,16 @@ export default function About() {
                         className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100 relative overflow-hidden"
                     >
                         <p className="text-slate-600 leading-relaxed font-medium mb-6 text-lg">
-                            I am a Computer Science graduate with a strong foundation in
-                            <strong className="font-semibold text-slate-900"> Java, SQL, data structures, and software engineering principles</strong>.
-                            My experience spans developing web and IoT-based applications, as well as working with machine learning models (PyTorch, Hugging Face ecosystem, and transformer model fine-tuning using LoRA).
+                            I am a <strong className="font-semibold text-slate-900">Software Developer and Computer Science graduate (2026)</strong> with a strong foundation in data structures, algorithms, and OOP.
+                            My expertise lies in designing and building full-stack web, mobile, and IoT-integrated applications using <strong className="font-semibold text-slate-900">Java, Spring Boot, TypeScript, React/Next.js, React Native, Flutter, and Node.js</strong>.
                         </p>
 
                         <p className="text-slate-600 leading-relaxed font-medium mb-6 text-lg">
-                            Currently, I am working on a <strong className="font-semibold text-slate-900">microplastic detection project</strong> featuring a React Native dashboard tailored for real-time environmental monitoring. I am also familiar with model quantization techniques (AWQ, GPTQ) and serving models with vLLM.
+                            I have independently shipped and deployed <strong className="font-semibold text-slate-900">four full-stack projects end-to-end</strong>, demonstrating proficiency in REST API design, JWT authentication, and relational database modeling with JPA/Hibernate.
                         </p>
 
                         <p className="text-slate-600 leading-relaxed font-medium text-lg">
-                            I am actively seeking entry-level <strong className="font-semibold text-slate-900">Software Developer, ML Engineer, or Java Developer</strong> roles where I can apply my technical skills, solve complex problems, and contribute to real-world projects.
+                            I take a collaborative, detail-oriented approach to building scalable, robust software solutions, and I am eager to apply my skills to real-world software engineering challenges.
                         </p>
                     </motion.div>
                 </div>

@@ -16,7 +16,7 @@ export default function Hero() {
           className="mb-8"
         >
           <span className="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-white/60 backdrop-blur-sm border border-slate-200/50 text-sm font-medium text-slate-600 shadow-[0_1px_2px_rgba(0,0,0,0.04)] cursor-default">
-            Final-year B.Tech Computer Science Student
+            B.Tech Computer Science Graduate (2026)
           </span>
         </motion.div>
 
@@ -35,7 +35,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
         >
-          Software Developer | ML Engineer | IoT Engineer
+          Software Developer
         </motion.h2>
 
         <motion.p
@@ -44,7 +44,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
         >
-          Passionate about building scalable web applications, fine-tuning machine learning models, and engineering intelligent IoT systems.
+          Experienced in designing and building full-stack web, mobile, and IoT-integrated applications using Java, Spring Boot, TypeScript, React/Next.js, React Native, Flutter, and Node.js.
         </motion.p>
 
         <motion.div

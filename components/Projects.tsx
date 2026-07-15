@@ -1,23 +1,37 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ExternalLink, MonitorSmartphone } from 'lucide-react';
+import { ExternalLink, Server, CheckSquare, Cpu } from 'lucide-react';
 
 const projects = [
     {
-        title: "Microplastic Detection System",
-        subtitle: "React Native Dashboard • IoT Integration",
-        description: "Developed a comprehensive system utilizing ESP32 microcontrollers and optical sensors to detect microplastic concentrations in real-time. Built a robust mobile dashboard for data visualization, leveraging stable Wi-Fi communication protocols for uninterrupted environmental monitoring.",
-        tech: ["React Native", "ESP32", "JavaScript", "Python", "IoT"],
-        icon: <MonitorSmartphone className="w-6 h-6" strokeWidth={2} />
-    },
-    {
         title: "Reclogix",
         subtitle: "Hospital Management Web Platform",
-        description: "Architected a full-stack web platform streamlining patient records and secure doctor access portals. Engineered the responsive frontend interfaces using React.js and RESTful backend architectures with Node.js. Integrated Supabase for rigorous data security, authentication, and rapid deployment via Vercel.",
-        tech: ["React.js", "Node.js", "Supabase", "JavaScript", "Vercel"],
+        description: "Architected and independently developed a full-stack hospital management platform, delivering three role-based workflow modules (patient, doctor, and administrative) end-to-end. Implemented authentication and row-level security policies in Supabase; designed a responsive Next.js App Router frontend with Tailwind CSS and shadcn/ui, deployed via Vercel.",
+        tech: ["Next.js", "TypeScript", "Supabase", "PostgreSQL", "Tailwind CSS", "shadcn/ui", "Vercel"],
         icon: <ExternalLink className="w-6 h-6" strokeWidth={2} />,
         link: "https://rec-logix.vercel.app/"
+    },
+    {
+        title: "Employee Management System",
+        subtitle: "Enterprise Backend & Spring Boot",
+        description: "Engineered a layered Spring Boot application (Controller–Service–Repository) to manage employee records including department, designation, and salary data. Integrated Hibernate/JPA for object-relational persistence against a MySQL database and built server-rendered views with Thymeleaf.",
+        tech: ["Java", "Spring Boot", "Spring Data JPA", "Thymeleaf", "MySQL", "Hibernate"],
+        icon: <Server className="w-6 h-6" strokeWidth={2} />
+    },
+    {
+        title: "TaskFlow",
+        subtitle: "Mobile Task Management App",
+        description: "Developed a cross-platform mobile task manager in Flutter, using Provider for state management and Dio for API communication. Designed and built a Node.js/Express REST API with JWT-based authentication, securing sessions via flutter_secure_storage on the client. Implemented task CRUD with status, priority, and due-date tracking, backed by a relational MySQL schema supporting category-based organization.",
+        tech: ["Flutter", "Dart", "Node.js", "Express.js", "MySQL", "JWT", "Provider"],
+        icon: <CheckSquare className="w-6 h-6" strokeWidth={2} />
+    },
+    {
+        title: "Microplastic Detection System",
+        subtitle: "IoT Real-Time Mobile Dashboard",
+        description: "Built a cross-platform mobile dashboard in React Native to visualize real-time sensor data from an AI-powered microplastic detection system. Integrated a Flask backend with ESP32 hardware sensors and a machine learning model to enable real-time data ingestion and visualization.",
+        tech: ["React Native", "TypeScript", "Flask", "ESP32", "Machine Learning", "IoT"],
+        icon: <Cpu className="w-6 h-6" strokeWidth={2} />
     }
 ];
 
